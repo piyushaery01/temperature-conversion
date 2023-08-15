@@ -1,0 +1,79 @@
+
+    
+body {
+    background-color: rgb(0, 255, 64);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.temperature{
+    background-color:rgb(255, 255, 255);
+    color: rgb(47, 0, 255);
+    width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+    border-width:100%;
+    border-color: aqua;
+    text-align: center;
+    margin: auto;
+    margin-top:20px;
+    font-size:xx-large;
+}
+.temperature1{
+    margin-top:30px;
+}
+header{
+    font-size: 30px;
+    background-color: rgb(169, 4, 81);
+    color: white;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+#temp {
+    width: 160px;
+    height: 22px;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#temp_unit {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(218 229 220);
+    padding: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#submit:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+#result{
+    font-size: 25px;
+}
+#img{
+    background-color: rgb(212, 212, 212);
+}
+#calcTemp{
+    margin-top: -110px;
+}
+       
+
+       
+
+ 
+
+   

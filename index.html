@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head > <link rel="shortcut icon" type="image/jpg" href="/fav.png"/>
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="note.js"></script>
+</head>
+<body >
+
+    <section id="home">
+        <header>
+            <b> Temperature Conversion</b>
+        <hr>    
+        </header>
+    </section>
+    
+    <div class="temperature">
+        <figure style="margin-top:-50px;margin-left:70px">
+            <img src="https://media.istockphoto.com/id/1184204481/vector/thermometer-vector-flat-design-stock-illustration.jpg?s=612x612&w=0&k=20&c=xLVkQcL5KscGB3lUNtqTKIPdorT-H7xbAOgkUzhVfTc=" alt="" id="img"width="250vw">
+        </figure>
+        <form id="calcTemp" onsubmit="compute(); return false">
+            <div class="temperature1">
+                <br>
+                <input type="number" name="temp" id="temp">
+                <select name="temp_unit" id="temp_unit">
+                    <option value="0">select your unit</option>
+                    <option value="cel">Celsius</option>
+                    <option value="fah">Fahrenheit</option>
+                    <option value="kel">Kelvin</option>
+                </select>
+                <br>
+                <span id="result" style="color:black"></span><br>
+                <input type="submit" value="Submit"name="tmp" id="submit">
+            </div>
+        </form>
+
+
+
+
+        <h2>Made  By PiYUSH SHARMA</h2>
+
+
+
+    </div>
+</body>
+</html>
